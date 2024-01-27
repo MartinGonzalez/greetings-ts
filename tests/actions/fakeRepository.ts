@@ -1,5 +1,5 @@
-import { GreetingsMessage } from "../../src/domain/greetingsMessage";
-import { GreetingsMessageRepository } from "../../src/domain/repositories/greetingsMessageRepository";
+import { GreetingsMessage } from "../../src/core/domain/greetingsMessage";
+import { GreetingsMessageRepository } from "../../src/core/domain/repositories/greetingsMessageRepository";
 
 
 export class FakeRepo implements GreetingsMessageRepository {

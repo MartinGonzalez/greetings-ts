@@ -1,7 +1,7 @@
 import { mock, instance, when, verify } from 'ts-mockito';
-import { GetGreetings } from "../../src/actions/getGreetings";
-import { GreetingsMessageRepository } from '../../src/domain/repositories/greetingsMessageRepository';
-import { GreetingsMessage } from "../../src/domain/greetingsMessage";
+import { GetGreetings } from "../../src/core/actions/getGreetings";
+import { GreetingsMessageRepository } from '../../src/core/domain/repositories/greetingsMessageRepository';
+import { GreetingsMessage } from "../../src/core/domain/greetingsMessage";
 
 describe("getGreetings", () => {
 

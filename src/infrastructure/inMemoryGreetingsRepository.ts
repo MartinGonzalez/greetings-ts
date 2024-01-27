@@ -1,5 +1,5 @@
-import { GreetingsMessageRepository } from "../domain/repositories/greetingsMessageRepository";
-import { GreetingsMessage } from "../domain/greetingsMessage";
+import { GreetingsMessageRepository } from "../core/domain/repositories/greetingsMessageRepository";
+import { GreetingsMessage } from "../core/domain/greetingsMessage";
 
 export class InMemoryGreetingsRepository implements GreetingsMessageRepository {
 
