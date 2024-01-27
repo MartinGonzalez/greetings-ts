@@ -45,4 +45,9 @@ export class InMemoryGreetingsRepository implements GreetingsMessageRepository {
         const randomIndex = Math.floor(Math.random() * languageCollection.length)
         return languageCollection[randomIndex]
     }
+
+    supports(language: string): Promise<Boolean> {
+        const isSupported = Boolean(this.greetings[language])
+        return Promise.resolve(isSupported)
+    }
 }
